@@ -18,8 +18,6 @@ namespace Coivd_App.Models
 
         public bool Diagnosed { get; set; }
 
-        public UserHistory us { get; set; }
-
         public DateTime BirthDate { get; set; }
 
 

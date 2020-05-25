@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coivd_App.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -19,6 +20,6 @@ namespace Coivd_App.Data
         {
         }
 
-        public System.Data.Entity.DbSet<Coivd_App.Models.User> Users { get; set; }
+        public System.Data.Entity.DbSet<User> Users { get; set; }
     }
 }

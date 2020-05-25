@@ -159,5 +159,6 @@ C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\bin\Ent
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\bin\EntityFramework.SqlServer.dll
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\bin\EntityFramework.xml
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\bin\EntityFramework.SqlServer.xml
-C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.Migrations.init.resources
+C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.Migrations.Migra1.resources
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.csproj.GenerateResource.cache
+C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.csprojAssemblyReference.cache

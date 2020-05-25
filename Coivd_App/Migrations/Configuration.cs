@@ -9,8 +9,7 @@ namespace Coivd_App.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            ContextKey = "Coivd_App.Data.MyAppContext";
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(Coivd_App.Data.MyAppContext context)
