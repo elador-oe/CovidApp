@@ -47,7 +47,7 @@ namespace Coivd_App.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "UserID,FirstName,LastName,PhoneNumber,Address,Diagnosed,us,BirthDate")] User user)
+        public ActionResult Create([Bind(Include = "UserID,FirstName,LastName,Password,PhoneNumber,Address,Email,Diagnosed,BirthDate")] User user)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace Coivd_App.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "UserID,FirstName,LastName,PhoneNumber,Address,Diagnosed,us,BirthDate")] User user)
+        public ActionResult Edit([Bind(Include = "UserID,FirstName,LastName,Password,PhoneNumber,Address,Email,Diagnosed,BirthDate")] User user)
         {
             if (ModelState.IsValid)
             {
