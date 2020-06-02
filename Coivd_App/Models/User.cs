@@ -19,7 +19,7 @@ namespace Coivd_App.Models
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Password is requried")]
-       // [Display(DataType.Password)]
+        [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
 

@@ -162,3 +162,4 @@ C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Deb
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.Migrations.InitialCreate.resources
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.csproj.GenerateResource.cache
 C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.Migrations.init.resources
+C:\Users\elado_t3zw1v2\Desktop\study\Apps developing\Covid_App\Coivd_App\obj\Debug\Coivd_App.csprojAssemblyReference.cache

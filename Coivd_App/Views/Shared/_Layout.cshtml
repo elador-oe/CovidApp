@@ -1,6 +1,29 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <header>
+        <div id="carouselIndicators-25769" class="carousel slide carouselIndicators" data-ride="carousel" data-mk-aweb-org-font-size="16">
+
+            <div class="carousel-inner" role="listbox" data-mk-aweb-org-font-size="16">
+                <div class="carousel-item active" data-mk-aweb-org-font-size="16">
+
+
+                    <img alt="" class="d-none d-md-block d-lg-block w-100" src="/media/corona_small.jpg"><img alt="" class="d-lg-none d-md-none w-100" src="/media/corona_320x195.jpg" style="">
+
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselIndicators-25769" role="button" data-slide="prev" aria-controls="mst-BannersWithLinks-59986" aria-label="הקודם" data-mk-aweb-org-font-size="16" style="">
+                <span class="carousel-control-prev-icon" aria-hidden="true" data-mk-aweb-org-font-size="16"></span>
+                <span class="sr-only" data-mk-aweb-org-font-size="16">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators-25769" role="button" data-slide="next" aria-controls="mst-BannersWithLinks-63585" aria-label="הבא" data-mk-aweb-org-font-size="16" style="">
+                <span class="carousel-control-next-icon" aria-hidden="true" data-mk-aweb-org-font-size="16"></span>
+                <span class="sr-only" data-mk-aweb-org-font-size="16">Next</span>
+            </a>
+        </div>
+    </header>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
@@ -11,20 +34,17 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </button>---> 
+                @Html.ActionLink("Home Page", "-----", "LandingPage", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
+            <div class="navbar">
+            <ul class="nav navbar-nav">
+            </ul>
+           </div>
         </div>
     </div>
     <div class="container body-content">
