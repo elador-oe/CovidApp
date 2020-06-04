@@ -36,6 +36,10 @@ namespace Coivd_App.Models
         [Display(Name = "Email address")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Address name is requried")]
+        [Display(Name = "City")]
+        public string City { get; set; }
+
         [Display(Name = "Mark if diagnosed")]
         [Required(AllowEmptyStrings = false)]
         public bool Diagnosed { get; set; }

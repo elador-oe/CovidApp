@@ -21,5 +21,7 @@ namespace Coivd_App.Data
         }
 
         public System.Data.Entity.DbSet<User> Users { get; set; }
+
+        public System.Data.Entity.DbSet<Coivd_App.Models.Admin> Admins { get; set; }
     }
 }
